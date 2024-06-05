@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Ejercicio4: View {
+struct Exercise1: View {
     var body: some View {
         VStack{
             HStack{
@@ -32,7 +32,7 @@ struct Ejercicio4: View {
                     .foregroundColor(.black)
                     .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/ ,height: 200)
                 Circle()
-                    .foregroundColor(.blue)
+                    .foregroundColor(.indigo)
                     .frame(height: 150)
             }
             Rectangle()
@@ -55,5 +55,5 @@ struct Ejercicio4: View {
 }
 
 #Preview {
-    Ejercicio4()
+    Exercise1()
 }
